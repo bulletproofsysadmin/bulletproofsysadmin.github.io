@@ -1,5 +1,5 @@
-name: Twister
-description: a powerful jekyll theme
+name: Bulletproof SysAdmin
+description: Helping you keep your projects bulletproof.
 url: #place url
 baseurl: #place folder name if site is served in subfolder
 permalink: /:title/
@@ -117,4 +117,3 @@ prose:
           label: "YouTube Video ID"
           help: "Set post type to youtube in order for this to work. Do not set featured image, as the youtube video thumbnail will be used"
           type: "text"
-
