@@ -14,9 +14,9 @@ author_default_avatar: /profile-pic.jpg
 #tumblr: "#"
 #pinterest: "#"
 #instagram: "#"
-twitter: "#"
+twitter: "https://twitter.com/bltpr00fadm1n"
 #facebook: "#"
-youtube: "#"
+#youtube: "#"
 #vimeo: "#"
 #soundcloud: "#"
 
@@ -117,3 +117,9 @@ prose:
           label: "YouTube Video ID"
           help: "Set post type to youtube in order for this to work. Do not set featured image, as the youtube video thumbnail will be used"
           type: "text"
+
+
+analytics :
+  provider : google
+  google :
+      tracking_id : 'UA-68130234-1'
