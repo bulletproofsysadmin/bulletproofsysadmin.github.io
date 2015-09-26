@@ -2,7 +2,8 @@
     <div class="content">
         <nav id="menu">
             <a class="toggle_link noline"><i class="fa fa-close fa-lg"></i></a>
-            <ul>
+            {% comment %}
+              <ul>
                 <li>
                     <a href="{{ site.baseurl | replace: '//', '/' }}/page">Page</a>
                 </li>
@@ -22,7 +23,8 @@
                         <li><a href="/child3">child</a></li>
                     </ul>
                 </li>
-            </ul>
+          </ul>
+          {% endcomment %}
         </nav>
         <nav class="iconnav">
             <ul>
