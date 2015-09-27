@@ -17,3 +17,7 @@ This is part 1 in a 3 part series on Docker-compose.  A little more of the aweso
 **So you want to install docker compose?**
 <br>
 Installing compose is very simple.  Before we can install compose though we need to have a Docker host.  The best support for Docker and Docker with security is on RedHat.  Don't get me wrong Ubuntu's App Armor is great!  SELinux is more familar though and due to it's glacially moving nature RHEL7/Cent7 makes a great host for all your Docker containers.  Letting RHEL be good what it's at and any other flavors of Linux be good at what they're good at.
+
+{% highlight bash %}
+    #/bin/bash foo baseurl
+{% endhighlight %}
